@@ -1,0 +1,4 @@
+{
+  "extends": "@matheus/ts-config/react.json",
+  "include": ["src"]
+}

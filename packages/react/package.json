@@ -9,10 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "@matheus/tokens": "*",
-    "tsup": "^8.5.0"
+    "@matheus/ts-config": "*",
+    "tsc": "^2.0.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }
