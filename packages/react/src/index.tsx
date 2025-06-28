@@ -1,5 +1,23 @@
-import { colors } from '@matheus/tokens'
+import { styled } from './styles'
+
+const ButtonStyled = styled('button', {
+  backgroundColor: '$ignite500',
+  color: 'white',
+  padding: '$20 $40',
+  borderRadius: '$md',
+  border: 'none',
+  cursor: 'pointer',
+
+  '&:hover': {
+    backgroundColor: '$gray700',
+  },
+})
 
 export function App() {
-  return <h1 style={{ color: colors.ignite300 }}>Hello World</h1>
+  return (
+    <>
+      <ButtonStyled>Hello monorepo!</ButtonStyled>
+      <h1>Hello World</h1>
+    </>
+  )
 }
