@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --format esm, csj --dts",
-    "dev": "tsup src/index.ts --format esm, csj --dts --watch"
+    "dev": "tsup src/index.ts --format esm, csj --dts --watch",
+    "lint": "eslint src/**/*.ts --fix"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "@matheus/tokens": "*",
     "@matheus/ts-config": "*",
+    "@matheus/eslint-config": "*",
     "tsc": "^2.0.4",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
