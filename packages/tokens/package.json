@@ -16,7 +16,6 @@
   "description": "",
   "devDependencies": {
     "@matheus/ts-config": "*",
-    "@matheus/tokens": "*",
     "@matheus/eslint-config": "*",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
